@@ -24,9 +24,9 @@ const linkTransitionStyles = {
   exited: { opacity: 0 },
 };
 
-function sidebarContent({ className, content, isOpen, ...props }) {
+function sidebarContent ({ className, content, isOpen, ...props }) {
   const classnames = cx('SidebarContent', className);
-  function renderContent() {
+  function renderContent () {
     return (
       <Transition in={isOpen} timeout={duration}>
         {state => (

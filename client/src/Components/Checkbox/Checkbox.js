@@ -2,7 +2,7 @@ import React from 'react';
 import './Checkbox.css';
 import cx from 'classnames';
 
-function Checkbox({ className, text, size = 12, ...props }) {
+function Checkbox ({ className, text, size = 12, ...props }) {
   const classnames = cx('Checkbox', className);
   return (
     <div className={classnames}>
@@ -12,7 +12,7 @@ function Checkbox({ className, text, size = 12, ...props }) {
         style={{ width: size, height: size }}
         {...props}
       ></input>
-      <p className='Checkbox-text'>{text || ''}</p>
+      {text && <p className='Checkbox-text'>{text}</p>}
     </div>
   );
 }
