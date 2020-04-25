@@ -10,12 +10,16 @@ describe('App', () => {
   it('<App/> renders LoginPage if no token is provided', () => {
     const wrapper = shallow(<App />);
     expect(wrapper.containsMatchingElement(<LoginPage />)).toEqual(true);
+    expect(wrapper.containsMatchingElement(<Dashboard />)).toEqual(false);
   });
 
   it('<App/> renders Dashboard if a token is provided', () => {
     const wrapper = shallow(<App />);
-    expect(wrapper.containsMatchingElement(<Dashboard />)).toEqual(false);
+    wrapper.invoke('assignCredentials')('userName', 'token');
+    expect(wrapper.containsMatchingElement(<LoginPage />)).toEqual(false);
+    expect(wrapper.containsMatchingElement(<Dashboard />)).toEqual(true);
   });
+});
 
 
   // let wrapper;
@@ -23,7 +27,6 @@ describe('App', () => {
 
   // beforeEach(() => {
   //   wrapper = shallow(<App assignCredentials={fakeAssignCredentials} />);
-  //   console.log('wrapper.debug(): ', wrapper.debug());
   // });
 
   // it('<App/> renders Dashboard if token is provided', () => {
@@ -34,5 +37,5 @@ describe('App', () => {
 
 
 
-});
+
 
