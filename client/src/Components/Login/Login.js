@@ -6,7 +6,7 @@ import Checkbox from '../Checkbox/Checkbox';
 
 //TODO(marta) create a form component
 
-function Login({ className, assignCredentials }) {
+function Login ({ className, assignCredentials }) {
   const classnames = cx('Login', className);
   const [token, setToken] = useState('');
   const [username, setUsername] = useState('');
@@ -14,25 +14,25 @@ function Login({ className, assignCredentials }) {
   const [enterpriseUrl, setEnterpriseUrl] = useState('');
   const [isFormEnabled, setEnableForm] = useState(false);
 
-  useEffect(() => {});
+  useEffect(() => { });
 
-  function handleTokenChange({ target }) {
+  function handleTokenChange ({ target }) {
     setToken(target.value);
   }
 
-  function handleUsernameChange({ target }) {
+  function handleUsernameChange ({ target }) {
     setUsername(target.value);
   }
 
-  function handleEnterprise({ target }) {
+  function handleEnterprise ({ target }) {
     setEnterprise(target.checked);
   }
 
-  function handleEnterpriseUrl({ target }) {
+  function handleEnterpriseUrl ({ target }) {
     setEnterpriseUrl(target.value);
   }
 
-  function handleSubmit(event) {
+  function handleSubmit (event) {
     event.preventDefault();
     localStorage.setItem('username', username);
     localStorage.setItem('token', token);
@@ -69,7 +69,7 @@ function Login({ className, assignCredentials }) {
           placeholder='Username'
           value={username}
           type='text'
-          className='Login-input'
+          className='Login-input Username'
           required
           onChange={handleUsernameChange}
         />
@@ -77,7 +77,7 @@ function Login({ className, assignCredentials }) {
           placeholder='Here goes your gitHub Token'
           value={token}
           type='text'
-          className='Login-input'
+          className='Login-input Token'
           required
           onChange={handleTokenChange}
         />
@@ -92,7 +92,7 @@ function Login({ className, assignCredentials }) {
         </a>
         <Checkbox
           checked={isEnterprise}
-          className='Login-input'
+          className='Login-input Testing-input'
           onChange={handleEnterprise}
           text='GitHub Enterprise'
         />
