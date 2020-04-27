@@ -1,0 +1,69 @@
+{
+  "pr": {
+    "id": "MDExOlB1bGxSZXF1ZXN0MTE2OTQ2NTgy",
+    "title": "feat: added tapdancers, rainbowdancers, resting and moving functions",
+    "createdAt": "2017-04-21T09:34:20Z",
+    "updatedAt": "2017-04-21T09:34:20Z",
+    "state": "OPEN",
+    "url": "https://github.com/codeworks/sub-class-dance-party-exercise-master/pull/3",
+    "number": 3,
+    "author": {
+      "id": "MDQ6VXNlcjIxMTU5NTI0",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/21159524?u=92435be911d214dcb8b55addce293d2d98fe4db9&v=4",
+      "login": "johnandblue",
+      "__typename": "User"
+    },
+    "repository": {
+      "name": "sub-class-dance-party-exercise-master",
+      "nameWithOwner": "codeworks/sub-class-dance-party-exercise-master",
+      "url": "https://github.com/codeworks/sub-class-dance-party-exercise-master",
+      "id": "MDEwOlJlcG9zaXRvcnk2ODk4MzEwOQ==",
+      "__typename": "Repository"
+    },
+    "assignees": {
+      "nodes": [
+        {
+          "userId": "userId",
+          "id": "userId"
+        }
+      ],
+      "__typename": "UserConnection"
+    },
+    "reviews": {
+      "nodes": [],
+      "__typename": "PullRequestReviewConnection"
+    },
+    "__typename": "PullRequest"
+  },
+  "prBot": {
+    "id": "MDExOlB1bGxSZXF1ZXN0MTE2OTQ2NTgy",
+    "title": "feat: added tapdancers, rainbowdancers, resting and moving functions",
+    "createdAt": "2017-04-21T09:34:20Z",
+    "updatedAt": "2017-04-21T09:34:20Z",
+    "state": "OPEN",
+    "url": "https://github.com/codeworks/sub-class-dance-party-exercise-master/pull/3",
+    "number": 3,
+    "author": {
+      "id": "MDQ6VXNlcjIxMTU5NTI0",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/21159524?u=92435be911d214dcb8b55addce293d2d98fe4db9&v=4",
+      "login": "johnandblue",
+      "__typename": "Bot"
+    },
+    "repository": {
+      "name": "sub-class-dance-party-exercise-master",
+      "nameWithOwner": "codeworks/sub-class-dance-party-exercise-master",
+      "url": "https://github.com/codeworks/sub-class-dance-party-exercise-master",
+      "id": "MDEwOlJlcG9zaXRvcnk2ODk4MzEwOQ==",
+      "__typename": "Repository"
+    },
+    "assignees": {
+      "nodes": [],
+      "__typename": "UserConnection"
+    },
+    "reviews": {
+      "nodes": [],
+      "__typename": "PullRequestReviewConnection"
+    },
+    "__typename": "PullRequest"
+  }
+}
