@@ -13,7 +13,6 @@ import mockPr from './mockPr.json';
 describe('PrPreview renders all elements', () => {
 
   let wrapper;
-  // console.log('wrapper.debug(): ', wrapper.debug());
   beforeEach(() => {
     wrapper = shallow(<PrPreview pr={mockPr.pr} userId='userId' />);
   });
@@ -110,7 +109,6 @@ describe('PrPreview renders all elements', () => {
         wrapper.setProps({ setPinnedItems });
         const btnFav = wrapper.find('.star');
         const event = { currentTarget: { getAttribute: () => { }, 'prid': `${mockPr.pr.id}` } };
-        console.log('btnFav.debug(): ', btnFav.debug());
         btnFav.simulate('click', event);
         expect(setPinnedItems.mock.calls.length).toBe(1);
       });

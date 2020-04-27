@@ -15,7 +15,6 @@ function PrPreview ({ pr, setPinnedItems, className, userId }) {
   const isAssignedToUser = assignees.includes(userId);
 
   function handlePinButton (event) {
-    console.log('event: ', event);
     pinItem(event.currentTarget.getAttribute('prid'));
     setPinnedItems(JSON.parse(localStorage.getItem('pinnedItems')));
   }
