@@ -1,0 +1,144 @@
+{
+  "user": {
+    "id": "MDQ6VXNlcjU0ODQ4MDMx",
+    "repositories": {
+      "nodes": [
+        {
+          "id": "MDEwOlJlcG9zaXRvcnkyNTc5NDU1MjU=",
+          "nameWithOwner": "AlejandroGutierrezB/gitrank",
+          "owner": {
+            "id": "MDQ6VXNlcjU2NDA4NTk3",
+            "login": "AlejandroGutierrezB",
+            "__typename": "User"
+          },
+          "__typename": "Repository"
+        },
+        {
+          "id": "MDEwOlJlcG9zaXRvcnkyMzQ3NDk0MjM=",
+          "nameWithOwner": "Brendan-G5/pre-course",
+          "owner": {
+            "id": "MDQ6VXNlcjU0ODQ4MDMx",
+            "login": "Brendan-G5",
+            "__typename": "User"
+          },
+          "__typename": "Repository"
+        },
+        {
+          "id": "MDEwOlJlcG9zaXRvcnkyNDI5NDM1OTQ=",
+          "nameWithOwner": "Brendan-G5/tp-two-adds",
+          "owner": {
+            "id": "MDQ6VXNlcjU0ODQ4MDMx",
+            "login": "Brendan-G5",
+            "__typename": "User"
+          },
+          "__typename": "Repository"
+        }
+      ],
+      "__typename": "RepositoryConnection"
+    },
+    "organizations": {
+      "nodes": [
+        {
+          "repositories": {
+            "nodes": [
+              {
+                "id": "MDEwOlJlcG9zaXRvcnkyMTA2MTYxNzg=",
+                "nameWithOwner": "codeworks/code-reviews",
+                "owner": {
+                  "id": "MDEyOk9yZ2FuaXphdGlvbjIwODIzOTcz",
+                  "login": "codeworks",
+                  "__typename": "Organization"
+                },
+                "__typename": "Repository"
+              },
+              {
+                "id": "MDEwOlJlcG9zaXRvcnk2NTYxNzQzMw==",
+                "nameWithOwner": "codeworks/pre-course-master",
+                "owner": {
+                  "id": "MDEyOk9yZ2FuaXphdGlvbjIwODIzOTcz",
+                  "login": "codeworks",
+                  "__typename": "Organization"
+                },
+                "__typename": "Repository"
+              },
+              {
+                "id": "MDEwOlJlcG9zaXRvcnkxNzIwNjQ1ODk=",
+                "nameWithOwner": "codeworks/js-full-stack-summaries",
+                "owner": {
+                  "id": "MDEyOk9yZ2FuaXphdGlvbjIwODIzOTcz",
+                  "login": "codeworks",
+                  "__typename": "Organization"
+                },
+                "__typename": "Repository"
+              },
+              {
+                "id": "MDEwOlJlcG9zaXRvcnkyNDA1MjgwMDI=",
+                "nameWithOwner": "codeworks/weekly-assessment-5",
+                "owner": {
+                  "id": "MDEyOk9yZ2FuaXphdGlvbjIwODIzOTcz",
+                  "login": "codeworks",
+                  "__typename": "Organization"
+                },
+                "__typename": "Repository"
+              },
+              {
+                "id": "MDEwOlJlcG9zaXRvcnkyMzk4MTc0MzY=",
+                "nameWithOwner": "codeworks/weekly-assessment-6",
+                "owner": {
+                  "id": "MDEyOk9yZ2FuaXphdGlvbjIwODIzOTcz",
+                  "login": "codeworks",
+                  "__typename": "Organization"
+                },
+                "__typename": "Repository"
+              },
+              {
+                "id": "MDEwOlJlcG9zaXRvcnkxMTM1OTI5NDA=",
+                "nameWithOwner": "codeworks/job-preparation",
+                "owner": {
+                  "id": "MDEyOk9yZ2FuaXphdGlvbjIwODIzOTcz",
+                  "login": "codeworks",
+                  "__typename": "Organization"
+                },
+                "__typename": "Repository"
+              },
+              {
+                "id": "MDEwOlJlcG9zaXRvcnkxMzkzNzQ3MTg=",
+                "nameWithOwner": "codeworks/graphql-exercise-master",
+                "owner": {
+                  "id": "MDEyOk9yZ2FuaXphdGlvbjIwODIzOTcz",
+                  "login": "codeworks",
+                  "__typename": "Organization"
+                },
+                "__typename": "Repository"
+              },
+              {
+                "id": "MDEwOlJlcG9zaXRvcnk2ODk4MzEwOQ==",
+                "nameWithOwner": "codeworks/sub-class-dance-party-exercise-master",
+                "owner": {
+                  "id": "MDEyOk9yZ2FuaXphdGlvbjIwODIzOTcz",
+                  "login": "codeworks",
+                  "__typename": "Organization"
+                },
+                "__typename": "Repository"
+              },
+              {
+                "id": "MDEwOlJlcG9zaXRvcnk4MTYxNDQyMQ==",
+                "nameWithOwner": "codeworks/tp-diamond",
+                "owner": {
+                  "id": "MDEyOk9yZ2FuaXphdGlvbjIwODIzOTcz",
+                  "login": "codeworks",
+                  "__typename": "Organization"
+                },
+                "__typename": "Repository"
+              }
+            ],
+            "__typename": "RepositoryConnection"
+          },
+          "__typename": "Organization"
+        }
+      ],
+      "__typename": "OrganizationConnection"
+    },
+    "__typename": "User"
+  }
+}

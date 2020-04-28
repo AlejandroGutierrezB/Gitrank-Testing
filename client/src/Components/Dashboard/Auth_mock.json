@@ -1,0 +1,267 @@
+{
+  "user": {
+    "id": "MDQ6VXNlcjU0ODQ4MDMx",
+    "repositories": {
+      "nodes": [
+        {
+          "pullRequests": {
+            "nodes": [],
+            "__typename": "PullRequestConnection"
+          },
+          "__typename": "Repository"
+        },
+        {
+          "pullRequests": {
+            "nodes": [],
+            "__typename": "PullRequestConnection"
+          },
+          "__typename": "Repository"
+        },
+        {
+          "pullRequests": {
+            "nodes": [],
+            "__typename": "PullRequestConnection"
+          },
+          "__typename": "Repository"
+        },
+        {
+          "pullRequests": {
+            "nodes": [],
+            "__typename": "PullRequestConnection"
+          },
+          "__typename": "Repository"
+        },
+        {
+          "pullRequests": {
+            "nodes": [],
+            "__typename": "PullRequestConnection"
+          },
+          "__typename": "Repository"
+        },
+        {
+          "pullRequests": {
+            "nodes": [],
+            "__typename": "PullRequestConnection"
+          },
+          "__typename": "Repository"
+        },
+        {
+          "pullRequests": {
+            "nodes": [],
+            "__typename": "PullRequestConnection"
+          },
+          "__typename": "Repository"
+        },
+        {
+          "pullRequests": {
+            "nodes": [],
+            "__typename": "PullRequestConnection"
+          },
+          "__typename": "Repository"
+        },
+        {
+          "pullRequests": {
+            "nodes": [],
+            "__typename": "PullRequestConnection"
+          },
+          "__typename": "Repository"
+        }
+      ],
+      "__typename": "RepositoryConnection"
+    },
+    "organizations": {
+      "nodes": [
+        {
+          "repositories": {
+            "nodes": [
+              {
+                "pullRequests": {
+                  "nodes": [
+                    {
+                      "author": { "__typename": "Bot" },
+                      "__typename": "PullRequest"
+                    }
+                  ],
+                  "__typename": "PullRequestConnection"
+                },
+                "__typename": "Repository"
+              },
+              {
+                "pullRequests": {
+                  "nodes": [
+                    {
+                      "author": {
+                        "id": "MDQ6VXNlcjE1MjAxODc=",
+                        "login": "acandael",
+                        "__typename": "User"
+                      },
+                      "__typename": "PullRequest"
+                    },
+                    {
+                      "author": {
+                        "id": "MDQ6VXNlcjU0ODQ4MDMx",
+                        "login": "Brendan-G5",
+                        "__typename": "User"
+                      },
+                      "__typename": "PullRequest"
+                    },
+                    {
+                      "author": {
+                        "id": "MDQ6VXNlcjI0NTY3MzM3",
+                        "login": "lawrencedarcy",
+                        "__typename": "User"
+                      },
+                      "__typename": "PullRequest"
+                    },
+                    {
+                      "author": {
+                        "id": "MDQ6VXNlcjIxMTM5MzM=",
+                        "login": "Slug-Man",
+                        "__typename": "User"
+                      },
+                      "__typename": "PullRequest"
+                    },
+                    {
+                      "author": {
+                        "id": "MDQ6VXNlcjIxMjUxMDkw",
+                        "login": "MoKoffy",
+                        "__typename": "User"
+                      },
+                      "__typename": "PullRequest"
+                    },
+                    {
+                      "author": {
+                        "id": "MDQ6VXNlcjUwMDU1MDQx",
+                        "login": "spencersaleban",
+                        "__typename": "User"
+                      },
+                      "__typename": "PullRequest"
+                    },
+                    {
+                      "author": {
+                        "id": "MDQ6VXNlcjQxNzg5NzYz",
+                        "login": "EdwardNeuwirth",
+                        "__typename": "User"
+                      },
+                      "__typename": "PullRequest"
+                    },
+                    {
+                      "author": {
+                        "id": "MDQ6VXNlcjIwNDUxMTU5",
+                        "login": "gaber85",
+                        "__typename": "User"
+                      },
+                      "__typename": "PullRequest"
+                    },
+                    {
+                      "author": {
+                        "id": "MDQ6VXNlcjQzNzc2ODM5",
+                        "login": "zain-ali-syed",
+                        "__typename": "User"
+                      },
+                      "__typename": "PullRequest"
+                    },
+                    {
+                      "author": {
+                        "id": "MDQ6VXNlcjQwMjM1MzM0",
+                        "login": "franzspiess",
+                        "__typename": "User"
+                      },
+                      "__typename": "PullRequest"
+                    },
+                    {
+                      "author": {
+                        "id": "MDQ6VXNlcjQxNjI2ODM0",
+                        "login": "Casprovy",
+                        "__typename": "User"
+                      },
+                      "__typename": "PullRequest"
+                    },
+                    {
+                      "author": {
+                        "id": "MDQ6VXNlcjI1ODIxNzg4",
+                        "login": "Tezenn",
+                        "__typename": "User"
+                      },
+                      "__typename": "PullRequest"
+                    },
+                    {
+                      "author": {
+                        "id": "MDQ6VXNlcjM5MTI3NTIy",
+                        "login": "adriapalleja",
+                        "__typename": "User"
+                      },
+                      "__typename": "PullRequest"
+                    },
+                    {
+                      "author": {
+                        "id": "MDQ6VXNlcjI2MzM2Njky",
+                        "login": "nathalia-rus",
+                        "__typename": "User"
+                      },
+                      "__typename": "PullRequest"
+                    },
+                    {
+                      "author": {
+                        "id": "MDQ6VXNlcjQwNDk2MDQ3",
+                        "login": "stevenvana",
+                        "__typename": "User"
+                      },
+                      "__typename": "PullRequest"
+                    },
+                    {
+                      "author": {
+                        "id": "MDQ6VXNlcjM0NzA5MzU5",
+                        "login": "rogerknl",
+                        "__typename": "User"
+                      },
+                      "__typename": "PullRequest"
+                    },
+                    {
+                      "author": {
+                        "id": "MDQ6VXNlcjE2NjM3ODQz",
+                        "login": "g0g11",
+                        "__typename": "User"
+                      },
+                      "__typename": "PullRequest"
+                    },
+                    {
+                      "author": {
+                        "id": "MDQ6VXNlcjM0OTkxMDgy",
+                        "login": "dkm-coder",
+                        "__typename": "User"
+                      },
+                      "__typename": "PullRequest"
+                    },
+                    {
+                      "author": {
+                        "id": "MDQ6VXNlcjMwOTU4ODUw",
+                        "login": "janosh",
+                        "__typename": "User"
+                      },
+                      "__typename": "PullRequest"
+                    },
+                    {
+                      "author": {
+                        "id": "MDQ6VXNlcjMwOTkwMDg=",
+                        "login": "jmporchet",
+                        "__typename": "User"
+                      },
+                      "__typename": "PullRequest"
+                    }
+                  ],
+                  "__typename": "PullRequestConnection"
+                },
+                "__typename": "Repository"
+              }
+            ],
+            "__typename": "RepositoryConnection"
+          },
+          "__typename": "Organization"
+        }
+      ],
+      "__typename": "OrganizationConnection"
+    },
+    "__typename": "User"
+  }
+}
