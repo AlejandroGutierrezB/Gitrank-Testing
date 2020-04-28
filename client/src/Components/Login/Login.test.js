@@ -1,4 +1,4 @@
-import { shallow, mount, unmount } from 'enzyme';
+import { shallow } from 'enzyme';
 import React from 'react';
 import Button from '../Button/Button';
 import Checkbox from '../Checkbox/Checkbox';

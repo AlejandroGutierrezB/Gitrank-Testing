@@ -1,7 +1,6 @@
-import { shallow, mount } from 'enzyme';
+import { shallow } from 'enzyme';
 import React from 'react';
 import Status from './Status';
-import Avatar from '../Avatar/Avatar';
 import mockData from './mockData.json';
 
 describe('Status loads properly', () => {

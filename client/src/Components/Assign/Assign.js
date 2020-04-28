@@ -5,7 +5,7 @@ import { useMutation } from '@apollo/react-hooks';
 import Button from '../Button/Button';
 import cx from 'classnames';
 
-function Assign({ userId, prId, className, isAssigned, currentAssignees }) {
+function Assign ({ userId, prId, className, isAssigned, currentAssignees }) {
   let prevAssignees = [];
   if (currentAssignees.length) {
     prevAssignees = [
@@ -20,12 +20,14 @@ function Assign({ userId, prId, className, isAssigned, currentAssignees }) {
   const [assignToMe, { data }] = useMutation(ASSIGN_TO_USER);
   const classnames = cx('Assign', className);
 
-  function handleAssignment(event) {
+
+  function handleAssignment (event) {
     if (!isAssigned) {
       assignId.push(userId);
       event.preventDefault();
       assignToMe({ variables: { pullRequestId: prId, assigneeIds: assignId } });
       if (data) {
+        console.log('data: ', JSON.stringify(data));
         console.log('Succesfully assigned to you');
       }
     } else {
