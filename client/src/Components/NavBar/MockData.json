@@ -1,0 +1,527 @@
+{
+  "user": {
+    "id": "MDQ6VXNlcjU0ODQ4MDMx",
+    "login": "I am the test user",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/54848031?u=99ee51eb4f3fa8ed928f842034c4dbf8f231c394&v=4",
+    "repositories": {
+      "nodes": [
+        {
+          "id": "MDEwOlJlcG9zaXRvcnkyNTc5NDU1MjU=",
+          "name": "gitrank",
+          "__typename": "Repository"
+        },
+        {
+          "id": "MDEwOlJlcG9zaXRvcnkyNTgxNjg3NjA=",
+          "name": "GR-testing",
+          "__typename": "Repository"
+        },
+        {
+          "id": "MDEwOlJlcG9zaXRvcnkyNTU2MTEyNDA=",
+          "name": "Jeoparday",
+          "__typename": "Repository"
+        },
+        {
+          "id": "MDEwOlJlcG9zaXRvcnkyNTY3MzExNDI=",
+          "name": "code-reviews",
+          "__typename": "Repository"
+        },
+        {
+          "id": "MDEwOlJlcG9zaXRvcnkyNTU2MDk3MjM=",
+          "name": "solo-project-proposal",
+          "__typename": "Repository"
+        },
+        {
+          "id": "MDEwOlJlcG9zaXRvcnkyNTU1NTM5MTc=",
+          "name": "log-me-in-exercise",
+          "__typename": "Repository"
+        },
+        {
+          "id": "MDEwOlJlcG9zaXRvcnkyNTUzNjE0NzM=",
+          "name": "secure-it-exercise",
+          "__typename": "Repository"
+        },
+        {
+          "id": "MDEwOlJlcG9zaXRvcnkyNTI2NTU4MzU=",
+          "name": "weekly-assessment-6",
+          "__typename": "Repository"
+        },
+        {
+          "id": "MDEwOlJlcG9zaXRvcnkyNTIxODkxNDA=",
+          "name": "netflix-react-exercise",
+          "__typename": "Repository"
+        },
+        {
+          "id": "MDEwOlJlcG9zaXRvcnkyNTEyMjY5MDQ=",
+          "name": "weekly-assessment-5",
+          "__typename": "Repository"
+        },
+        {
+          "id": "MDEwOlJlcG9zaXRvcnkyNTA3NDUzOTQ=",
+          "name": "angular-pokemon-exercise",
+          "__typename": "Repository"
+        },
+        {
+          "id": "MDEwOlJlcG9zaXRvcnkyNTA2MTMwMDE=",
+          "name": "movied-angular-exercise-master",
+          "__typename": "Repository"
+        },
+        {
+          "id": "MDEwOlJlcG9zaXRvcnkyNDk5NDczOTU=",
+          "name": "movied-angular-exercise",
+          "__typename": "Repository"
+        },
+        {
+          "id": "MDEwOlJlcG9zaXRvcnkyNDk0MDU1Mzc=",
+          "name": "graphql-exercise",
+          "__typename": "Repository"
+        },
+        {
+          "id": "MDEwOlJlcG9zaXRvcnkyNDkzNjkxOTQ=",
+          "name": "weekly-assessment-4",
+          "__typename": "Repository"
+        },
+        {
+          "id": "MDEwOlJlcG9zaXRvcnkyNDg3NDY2MTM=",
+          "name": "sexy-chat-exercise",
+          "__typename": "Repository"
+        },
+        {
+          "id": "MDEwOlJlcG9zaXRvcnkyNDg2OTkzMzE=",
+          "name": "tp-counterfeiter",
+          "__typename": "Repository"
+        },
+        {
+          "id": "MDEwOlJlcG9zaXRvcnkyNDc5NDA0MTA=",
+          "name": "chat-server-db-exercise",
+          "__typename": "Repository"
+        },
+        {
+          "id": "MDEwOlJlcG9zaXRvcnkyNDc5MTE1MTQ=",
+          "name": "tp-many-invocations",
+          "__typename": "Repository"
+        },
+        {
+          "id": "MDEwOlJlcG9zaXRvcnkyNDc0ODA5NTU=",
+          "name": "chat-server-exercise",
+          "__typename": "Repository"
+        },
+        {
+          "id": "MDEwOlJlcG9zaXRvcnkyNDc2OTA3OTk=",
+          "name": "async-patterns-exercise",
+          "__typename": "Repository"
+        },
+        {
+          "id": "MDEwOlJlcG9zaXRvcnkyNDc2NDM1NTk=",
+          "name": "weekly-assessment-3",
+          "__typename": "Repository"
+        },
+        {
+          "id": "MDEwOlJlcG9zaXRvcnkyNDY4MjE2MjU=",
+          "name": "chat-client-exercise",
+          "__typename": "Repository"
+        },
+        {
+          "id": "MDEwOlJlcG9zaXRvcnkyNDcyMzU0ODY=",
+          "name": "tp-paint-fill",
+          "__typename": "Repository"
+        },
+        {
+          "id": "MDEwOlJlcG9zaXRvcnkyNDcwMTc1MDc=",
+          "name": "tp-roman-numeral-translator",
+          "__typename": "Repository"
+        },
+        {
+          "id": "MDEwOlJlcG9zaXRvcnkyNDY3NzU5OTE=",
+          "name": "tp-give-me-time",
+          "__typename": "Repository"
+        },
+        {
+          "id": "MDEwOlJlcG9zaXRvcnkyNDY1MDkyODA=",
+          "name": "tp-prime-tester",
+          "__typename": "Repository"
+        },
+        {
+          "id": "MDEwOlJlcG9zaXRvcnkyNDYwMTQzNzQ=",
+          "name": "coding-queens-exercise",
+          "__typename": "Repository"
+        },
+        {
+          "id": "MDEwOlJlcG9zaXRvcnkyNDU2MTExODU=",
+          "name": "flavors-of-sorts-exercise",
+          "__typename": "Repository"
+        },
+        {
+          "id": "MDEwOlJlcG9zaXRvcnkyNDYyNDA2OTE=",
+          "name": "tp-diagonal-difference",
+          "__typename": "Repository"
+        },
+        {
+          "id": "MDEwOlJlcG9zaXRvcnkyNDU5NzU2Mjg=",
+          "name": "weekly-assessment-2",
+          "__typename": "Repository"
+        },
+        {
+          "id": "MDEwOlJlcG9zaXRvcnkyNDU1OTE3OTA=",
+          "name": "tp-spiral-traversal",
+          "__typename": "Repository"
+        },
+        {
+          "id": "MDEwOlJlcG9zaXRvcnkyNDQ4Njk1NDA=",
+          "name": "data-structures-2-exercise",
+          "__typename": "Repository"
+        },
+        {
+          "id": "MDEwOlJlcG9zaXRvcnkyNDUzNjE1ODQ=",
+          "name": "tp-common-ancestor",
+          "__typename": "Repository"
+        },
+        {
+          "id": "MDEwOlJlcG9zaXRvcnkyNDQ2MjgzMzc=",
+          "name": "data-structures-1-exercise",
+          "__typename": "Repository"
+        },
+        {
+          "id": "MDEwOlJlcG9zaXRvcnkyNDUxMDI2MjE=",
+          "name": "tp-circular-list",
+          "__typename": "Repository"
+        },
+        {
+          "id": "MDEwOlJlcG9zaXRvcnkyNDQ4NDA3NzE=",
+          "name": "tp-methodize",
+          "__typename": "Repository"
+        },
+        {
+          "id": "MDEwOlJlcG9zaXRvcnkyMTM0NDU4NDc=",
+          "name": "Simple-Neural-Networks",
+          "__typename": "Repository"
+        },
+        {
+          "id": "MDEwOlJlcG9zaXRvcnkyNDQ1NzU2MzE=",
+          "name": "tp-yarra",
+          "__typename": "Repository"
+        },
+        {
+          "id": "MDEwOlJlcG9zaXRvcnkyNDQzNTE1NjA=",
+          "name": "the-polyglot-exercise",
+          "__typename": "Repository"
+        },
+        {
+          "id": "MDEwOlJlcG9zaXRvcnkyNDQzMTI4MDM=",
+          "name": "weekly-assessment-1",
+          "__typename": "Repository"
+        },
+        {
+          "id": "MDEwOlJlcG9zaXRvcnkyNDMyMDMwNzc=",
+          "name": "tp-highest-word-count",
+          "__typename": "Repository"
+        },
+        {
+          "id": "MDEwOlJlcG9zaXRvcnkyNDM3ODI1MjA=",
+          "name": "sub-class-dance-party-exercise",
+          "__typename": "Repository"
+        },
+        {
+          "id": "MDEwOlJlcG9zaXRvcnkyNDM5MjgxNzQ=",
+          "name": "tp-evented-thing",
+          "__typename": "Repository"
+        },
+        {
+          "id": "MDEwOlJlcG9zaXRvcnkyNDM1MTI0MTU=",
+          "name": "jay-query-exercise",
+          "__typename": "Repository"
+        },
+        {
+          "id": "MDEwOlJlcG9zaXRvcnkyNDM3MDg4MjY=",
+          "name": "tp-clonator",
+          "__typename": "Repository"
+        },
+        {
+          "id": "MDEwOlJlcG9zaXRvcnkyNDM0NjMxODc=",
+          "name": "tp-fix-this-asap",
+          "__typename": "Repository"
+        },
+        {
+          "id": "MDEwOlJlcG9zaXRvcnkyNDMyNDI0MjE=",
+          "name": "da-tester-exercise",
+          "__typename": "Repository"
+        },
+        {
+          "id": "MDEwOlJlcG9zaXRvcnkyMzQ3NDk0MjM=",
+          "name": "pre-course",
+          "__typename": "Repository"
+        },
+        {
+          "id": "MDEwOlJlcG9zaXRvcnkyNDI5NDM1OTQ=",
+          "name": "tp-two-adds",
+          "__typename": "Repository"
+        }
+      ],
+      "__typename": "RepositoryConnection"
+    },
+    "organizations": {
+      "totalCount": 1,
+      "nodes": [
+        {
+          "repositories": {
+            "nodes": [
+              {
+                "id": "MDEwOlJlcG9zaXRvcnk4MDMwMDMzMQ==",
+                "name": "chat-server-db-exercise",
+                "__typename": "Repository"
+              },
+              {
+                "id": "MDEwOlJlcG9zaXRvcnk4MDMwMDQwNQ==",
+                "name": "chat-server-db-exercise-master",
+                "__typename": "Repository"
+              },
+              {
+                "id": "MDEwOlJlcG9zaXRvcnk2NzE3NjQ3OA==",
+                "name": "pre-course",
+                "__typename": "Repository"
+              },
+              {
+                "id": "MDEwOlJlcG9zaXRvcnkyNDMyMDQyNzE=",
+                "name": "legacy-project-proposal",
+                "__typename": "Repository"
+              },
+              {
+                "id": "MDEwOlJlcG9zaXRvcnkyNDMyMjQ1MzE=",
+                "name": "thesis-project-proposal",
+                "__typename": "Repository"
+              },
+              {
+                "id": "MDEwOlJlcG9zaXRvcnk4MDE3MjE4Nw==",
+                "name": "chat-server-exercise-master",
+                "__typename": "Repository"
+              },
+              {
+                "id": "MDEwOlJlcG9zaXRvcnkxNTE5NzU3NDQ=",
+                "name": "async-patterns-exercise",
+                "__typename": "Repository"
+              },
+              {
+                "id": "MDEwOlJlcG9zaXRvcnkyNDI4NTg4ODU=",
+                "name": "solo-project-proposal",
+                "__typename": "Repository"
+              },
+              {
+                "id": "MDEwOlJlcG9zaXRvcnk2OTQzNzMwMw==",
+                "name": "data-structures-2-exercise-master",
+                "__typename": "Repository"
+              },
+              {
+                "id": "MDEwOlJlcG9zaXRvcnkyMTA2MTYxNzg=",
+                "name": "code-reviews",
+                "__typename": "Repository"
+              },
+              {
+                "id": "MDEwOlJlcG9zaXRvcnk2NTYxNzQzMw==",
+                "name": "pre-course-master",
+                "__typename": "Repository"
+              },
+              {
+                "id": "MDEwOlJlcG9zaXRvcnkxNzIwNjQ1ODk=",
+                "name": "js-full-stack-summaries",
+                "__typename": "Repository"
+              },
+              {
+                "id": "MDEwOlJlcG9zaXRvcnkyNDA1MjgwMDI=",
+                "name": "weekly-assessment-5",
+                "__typename": "Repository"
+              },
+              {
+                "id": "MDEwOlJlcG9zaXRvcnkyMzk4MTc0MzY=",
+                "name": "weekly-assessment-6",
+                "__typename": "Repository"
+              },
+              {
+                "id": "MDEwOlJlcG9zaXRvcnkxMTM1OTI5NDA=",
+                "name": "job-preparation",
+                "__typename": "Repository"
+              },
+              {
+                "id": "MDEwOlJlcG9zaXRvcnkxMzkzNzQ3MTg=",
+                "name": "graphql-exercise-master",
+                "__typename": "Repository"
+              },
+              {
+                "id": "MDEwOlJlcG9zaXRvcnk2OTgyOTUxMw==",
+                "name": "weekly-assessment-2",
+                "__typename": "Repository"
+              },
+              {
+                "id": "MDEwOlJlcG9zaXRvcnk4OTk0MjQwMQ==",
+                "name": "weekly-assessment-2-master",
+                "__typename": "Repository"
+              },
+              {
+                "id": "MDEwOlJlcG9zaXRvcnk2ODg2Nzc5Nw==",
+                "name": "jay-query-exercise-master",
+                "__typename": "Repository"
+              },
+              {
+                "id": "MDEwOlJlcG9zaXRvcnk4NzkzMDU4Mw==",
+                "name": "the-polyglot-exercise",
+                "__typename": "Repository"
+              },
+              {
+                "id": "MDEwOlJlcG9zaXRvcnkxMzUyODk5NTU=",
+                "name": "log-me-in-exercise-master",
+                "__typename": "Repository"
+              },
+              {
+                "id": "MDEwOlJlcG9zaXRvcnkyMjk2MTQxMzM=",
+                "name": "location-handbook-barcelona",
+                "__typename": "Repository"
+              },
+              {
+                "id": "MDEwOlJlcG9zaXRvcnkxMzMyNzc4NzQ=",
+                "name": "weekly-assessment-4",
+                "__typename": "Repository"
+              },
+              {
+                "id": "MDEwOlJlcG9zaXRvcnkxMzMyNTIxNTY=",
+                "name": "weekly-assessment-4-master",
+                "__typename": "Repository"
+              },
+              {
+                "id": "MDEwOlJlcG9zaXRvcnk2ODAxNDExNw==",
+                "name": "students-handbook",
+                "__typename": "Repository"
+              },
+              {
+                "id": "MDEwOlJlcG9zaXRvcnk2ODk4MTY3Nw==",
+                "name": "tp-clonator",
+                "__typename": "Repository"
+              },
+              {
+                "id": "MDEwOlJlcG9zaXRvcnk2ODY3OTQ1Mg==",
+                "name": "tp-clonator-master",
+                "__typename": "Repository"
+              },
+              {
+                "id": "MDEwOlJlcG9zaXRvcnkxNDE0Mjk1MTA=",
+                "name": "weekly-assessment-6-master",
+                "__typename": "Repository"
+              },
+              {
+                "id": "MDEwOlJlcG9zaXRvcnkxNTI3NTEwNjY=",
+                "name": "angular-pokemon-exercise-master",
+                "__typename": "Repository"
+              },
+              {
+                "id": "MDEwOlJlcG9zaXRvcnkxMDk1MzYyMDQ=",
+                "name": "student-resources",
+                "__typename": "Repository"
+              },
+              {
+                "id": "MDEwOlJlcG9zaXRvcnk2ODc2OTQ2NA==",
+                "name": "da-tester-exercise",
+                "__typename": "Repository"
+              },
+              {
+                "id": "MDEwOlJlcG9zaXRvcnk2ODc1NjQ2OA==",
+                "name": "da-tester-exercise-master",
+                "__typename": "Repository"
+              },
+              {
+                "id": "MDEwOlJlcG9zaXRvcnkxNTMzMjU3ODI=",
+                "name": "movied-angular-exercise-master",
+                "__typename": "Repository"
+              },
+              {
+                "id": "MDEwOlJlcG9zaXRvcnk4MDc0MDEwMQ==",
+                "name": "style-guide",
+                "__typename": "Repository"
+              },
+              {
+                "id": "MDEwOlJlcG9zaXRvcnk4MDE3MTk2Nw==",
+                "name": "chat-server-exercise",
+                "__typename": "Repository"
+              },
+              {
+                "id": "MDEwOlJlcG9zaXRvcnkxNTU3MDc1NTM=",
+                "name": "netflix-react-exercise",
+                "__typename": "Repository"
+              },
+              {
+                "id": "MDEwOlJlcG9zaXRvcnkxNTI3NTEyOTc=",
+                "name": "netflix-react-exercise-master",
+                "__typename": "Repository"
+              },
+              {
+                "id": "MDEwOlJlcG9zaXRvcnk2OTIwODE5OQ==",
+                "name": "weekly-assessment-1",
+                "__typename": "Repository"
+              },
+              {
+                "id": "MDEwOlJlcG9zaXRvcnk2OTIwODI4Mg==",
+                "name": "weekly-assessment-1-master",
+                "__typename": "Repository"
+              },
+              {
+                "id": "MDEwOlJlcG9zaXRvcnk2OTMxMTk3Mw==",
+                "name": "tp-methodize",
+                "__typename": "Repository"
+              },
+              {
+                "id": "MDEwOlJlcG9zaXRvcnk2OTMxMDM1Nw==",
+                "name": "tp-methodize-master",
+                "__typename": "Repository"
+              },
+              {
+                "id": "MDEwOlJlcG9zaXRvcnk2OTUzNzM0OA==",
+                "name": "tp-circular-list",
+                "__typename": "Repository"
+              },
+              {
+                "id": "MDEwOlJlcG9zaXRvcnk2OTUwNTcwMQ==",
+                "name": "tp-circular-list-master",
+                "__typename": "Repository"
+              },
+              {
+                "id": "MDEwOlJlcG9zaXRvcnk2ODg2NzIyNg==",
+                "name": "tp-fix-this-asap",
+                "__typename": "Repository"
+              },
+              {
+                "id": "MDEwOlJlcG9zaXRvcnk2ODg2NzA2MA==",
+                "name": "tp-fix-this-asap-master",
+                "__typename": "Repository"
+              },
+              {
+                "id": "MDEwOlJlcG9zaXRvcnk2OTk4MDQ1OA==",
+                "name": "tp-prime-tester",
+                "__typename": "Repository"
+              },
+              {
+                "id": "MDEwOlJlcG9zaXRvcnk2OTk3NTg4Nw==",
+                "name": "tp-prime-tester-master",
+                "__typename": "Repository"
+              },
+              {
+                "id": "MDEwOlJlcG9zaXRvcnk2ODk5MzIzNw==",
+                "name": "sub-class-dance-party-exercise",
+                "__typename": "Repository"
+              },
+              {
+                "id": "MDEwOlJlcG9zaXRvcnk2ODk4MzEwOQ==",
+                "name": "sub-class-dance-party-exercise-master",
+                "__typename": "Repository"
+              },
+              {
+                "id": "MDEwOlJlcG9zaXRvcnk4MTYxNDQyMQ==",
+                "name": "tp-diamond",
+                "__typename": "Repository"
+              }
+            ],
+            "__typename": "RepositoryConnection"
+          },
+          "__typename": "Organization"
+        }
+      ],
+      "__typename": "OrganizationConnection"
+    },
+    "__typename": "User"
+  }
+}
