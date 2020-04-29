@@ -15,7 +15,7 @@ import NavBar from '../NavBar/NavBar';
 
 library.add(fas);
 
-function Dashboard({ className, username }) {
+function Dashboard ({ className, username }) {
   // STATES
   const [pinnedItems, setPinnedItems] = useState(
     localStorage.getItem('pinnedItems')
@@ -35,7 +35,7 @@ function Dashboard({ className, username }) {
   const [isOpen, toggleSidebar] = useState(false);
   let uid;
 
-  function toggleBar() {
+  function toggleBar () {
     toggleSidebar(!isOpen);
   }
 
@@ -191,12 +191,12 @@ function Dashboard({ className, username }) {
             userId={uid}
           />
         ) : (
-          <TransitionPage
-            className='Dashboard-list'
-            image='https://octodex.github.com/images/monroe.jpg'
-            children={'No open Prs 🎵'}
-          />
-        )}
+            <TransitionPage
+              className='Dashboard-list'
+              image='https://octodex.github.com/images/monroe.jpg'
+              children={'No open Prs 🎵'}
+            />
+          )}
       </div>
     </div>
   );

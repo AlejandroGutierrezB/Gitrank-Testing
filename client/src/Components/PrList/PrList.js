@@ -2,7 +2,7 @@ import React from 'react';
 import './PrList.css';
 import PrPreview from '../PrPreview/PrPreview';
 
-function PrList({ prs, setPinnedItems, userId }) {
+function PrList ({ prs, setPinnedItems, userId }) {
   if (prs) {
     return (
       <div className='PrList'>
