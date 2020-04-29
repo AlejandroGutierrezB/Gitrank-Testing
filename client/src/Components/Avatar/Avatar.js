@@ -21,7 +21,6 @@ function Avatar ({
         alt={author}
         title={author || 'You'}
         onError={() => {
-          console.log('estamos aqui: ');
           setImageError(true);
           if (onError) {
             onError();

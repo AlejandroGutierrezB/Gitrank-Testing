@@ -27,7 +27,6 @@ function Assign ({ userId, prId, className, isAssigned, currentAssignees }) {
       event.preventDefault();
       assignToMe({ variables: { pullRequestId: prId, assigneeIds: assignId } });
       if (data) {
-        console.log('data: ', JSON.stringify(data));
         console.log('Succesfully assigned to you');
       }
     } else {
