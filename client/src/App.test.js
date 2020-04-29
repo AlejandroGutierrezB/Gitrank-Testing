@@ -22,18 +22,6 @@ describe('App', () => {
 });
 
 
-  // let wrapper;
-  // const fakeAssignCredentials = jest.fn();
-
-  // beforeEach(() => {
-  //   wrapper = shallow(<App assignCredentials={fakeAssignCredentials} />);
-  // });
-
-  // it('<App/> renders Dashboard if token is provided', () => {
-  //   const wrapper = shallow(<LoginPage />);
-  //   expect(wrapper.containsMatchingElement(<Login />)).toEqual(true);
-  // });
-
 
 
 

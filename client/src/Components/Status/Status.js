@@ -3,7 +3,7 @@ import './Status.css';
 import cx from 'classnames';
 import Avatar from '../Avatar/Avatar';
 
-function Status({ className, reviewers, assignees }) {
+function Status ({ className, reviewers, assignees }) {
   const classnames = cx('Status', className);
   const [imageError, setImageError] = useState(false);
   const avatarStatus = {
@@ -29,6 +29,7 @@ function Status({ className, reviewers, assignees }) {
     },
   };
 
+
   const classnamesAssignees = cx('Status-avatar', {
     'Status-avatar--error': imageError,
   });
@@ -45,7 +46,7 @@ function Status({ className, reviewers, assignees }) {
   return (
     <div className={classnames}>
       <div className='Status-roles'>
-        <span className='Status-text'>
+        <span className='Status-text Reviewers'>
           {reviewers.length ? 'Reviewers' : 'No reviewers'}
         </span>
         <div
@@ -75,18 +76,18 @@ function Status({ className, reviewers, assignees }) {
                 className={getClassnames(id)}
               />
             ) : (
-              <Avatar
-                className={getClassnames(id)}
-                avatarUrl={'https://octodex.github.com/images/Robotocat.png'}
-                author={'Bot'}
-                size={24}
-              />
-            );
+                <Avatar
+                  className={getClassnames(id)}
+                  avatarUrl={'https://octodex.github.com/images/Robotocat.png'}
+                  author={'Bot'}
+                  size={24}
+                />
+              );
           })}
         </div>
       </div>
       <div className='Status-roles'>
-        <span className='Status-text'>
+        <span className='Status-text Assignees'>
           {assignees.length ? 'Assignees' : 'No assignees'}
         </span>
         <div className='Status-assignees-avatars'>

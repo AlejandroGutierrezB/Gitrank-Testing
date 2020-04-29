@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './Avatar.css';
 import cx from 'classnames';
 
-function Avatar({
+function Avatar ({
   className,
   avatarUrl,
   size = 40,
@@ -12,6 +12,7 @@ function Avatar({
 }) {
   const [imageError, setImageError] = useState(false);
   const classnames = cx('Avatar', className);
+
   return !imageError ? (
     <div className={classnames} style={{ width: size, height: size }}>
       <img
@@ -20,6 +21,7 @@ function Avatar({
         alt={author}
         title={author || 'You'}
         onError={() => {
+          console.log('estamos aqui: ');
           setImageError(true);
           if (onError) {
             onError();
@@ -28,10 +30,10 @@ function Avatar({
       />
     </div>
   ) : (
-    <div className={classnames}>
-      <span className='Avatar-error'>{author}</span>
-    </div>
-  );
+      <div className={classnames}>
+        <span className='Avatar-error'>{author}</span>
+      </div>
+    );
 }
 
 export default Avatar;

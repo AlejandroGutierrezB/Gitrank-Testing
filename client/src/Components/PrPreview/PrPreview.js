@@ -9,17 +9,17 @@ import { CopyToClipboard } from 'react-copy-to-clipboard';
 import PrDetails from '../PrDetails/PrDetails';
 import Assign from '../Assign/Assign';
 
-function PrPreview({ pr, setPinnedItems, className, userId }) {
+function PrPreview ({ pr, setPinnedItems, className, userId }) {
   const classnames = cx('PrPreview', className);
   const assignees = pr.assignees.nodes.map(element => element.id);
   const isAssignedToUser = assignees.includes(userId);
 
-  function handlePinButton(event) {
+  function handlePinButton (event) {
     pinItem(event.currentTarget.getAttribute('prid'));
     setPinnedItems(JSON.parse(localStorage.getItem('pinnedItems')));
   }
 
-  function isFavorite(id = 0) {
+  function isFavorite (id = 0) {
     return localStorage.getItem('pinnedItems')
       ? JSON.parse(localStorage.getItem('pinnedItems')).includes(id)
       : false;
@@ -36,11 +36,11 @@ function PrPreview({ pr, setPinnedItems, className, userId }) {
           {pr.author.__typename === 'User' ? (
             <Avatar avatarUrl={pr.author.avatarUrl} author={pr.author.login} />
           ) : (
-            <Avatar
-              avatarUrl={'https://octodex.github.com/images/Robotocat.png'}
-              author={'Bot'}
-            />
-          )}
+              <Avatar
+                avatarUrl={'https://octodex.github.com/images/Robotocat.png'}
+                author={'Bot'}
+              />
+            )}
         </div>
         <div className='PrPreview-header-title'>
           <a
@@ -66,7 +66,7 @@ function PrPreview({ pr, setPinnedItems, className, userId }) {
             type={pr.state}
             emoji={true}
           />
-          {pr.isDraft && (
+          {pr.isDraft && ( // was removed due to Github enterprise compatibility issue
             <Badge
               className='PrPreview-header-badge'
               type={'DRAFT'}
@@ -89,8 +89,8 @@ function PrPreview({ pr, setPinnedItems, className, userId }) {
             prid={pr.id}
             className={
               isFavorite(pr.id)
-                ? 'PrPreview-header-button--isFavorite'
-                : 'PrPreview-header-button'
+                ? 'PrPreview-header-button--isFavorite star'
+                : 'PrPreview-header-button star'
             }
           />
           <Assign
