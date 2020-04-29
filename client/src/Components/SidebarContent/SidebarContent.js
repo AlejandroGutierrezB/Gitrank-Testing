@@ -28,7 +28,7 @@ function sidebarContent ({ className, content, isOpen, ...props }) {
   const classnames = cx('SidebarContent', className);
   function renderContent () {
     return (
-      <Transition in={isOpen} timeout={duration}>
+      <Transition in={isOpen} timeout={duration} className = "sidebar-transition">
         {state => (
           <div
             style={{
@@ -45,7 +45,7 @@ function sidebarContent ({ className, content, isOpen, ...props }) {
     );
   }
   return (
-    <Transition in={isOpen} timeout={duration}>
+    <Transition in={isOpen} timeout={duration} className = "sidebar-transition">
       {state => (
         <div
           className={classnames}

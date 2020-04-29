@@ -1,0 +1,106 @@
+{
+  "user": {
+    "id": "MDQ6VXNlcjU0ODQ4MDMx",
+    "repositories": {
+      "nodes": [
+        {
+          "id": "MDEwOlJlcG9zaXRvcnkyNTc5NDU1MjU=",
+          "name": "gitrank",
+          "pullRequests": {
+            "nodes": [],
+            "__typename": "PullRequestConnection"
+          },
+          "__typename": "Repository"
+        }
+      ],
+      "__typename": "RepositoryConnection"
+    },
+    "organizations": {
+      "totalCount": 1,
+      "nodes": [
+        {
+          "repositories": {
+            "nodes": [
+              {
+                "id": "MDEwOlJlcG9zaXRvcnk4MDMwMDMzMQ==",
+                "name": "chat-server-db-exercise",
+                "pullRequests": {
+                  "nodes": [
+                    {
+                      "id": "MDExOlB1bGxSZXF1ZXN0MzkwNjEwMTM5",
+                      "title": "SQL & ORM implemented",
+                      "createdAt": "2020-03-18T18:56:10Z",
+                      "updatedAt": "2020-03-29T15:40:39Z",
+                      "state": "OPEN",
+                      "url": "https://github.com/codeworks/chat-server-db-exercise/pull/20",
+                      "number": 20,
+                      "author": {
+                        "id": "MDQ6VXNlcjYwMjU3NTUw",
+                        "avatarUrl": "https://avatars3.githubusercontent.com/u/60257550?u=ab8d36c30d97330e29448dd8f08c6daa947dff38&v=4",
+                        "login": "gsolde",
+                        "__typename": "User"
+                      },
+                      "repository": {
+                        "name": "chat-server-db-exercise",
+                        "nameWithOwner": "codeworks/chat-server-db-exercise",
+                        "url": "https://github.com/codeworks/chat-server-db-exercise",
+                        "id": "MDEwOlJlcG9zaXRvcnk4MDMwMDMzMQ==",
+                        "__typename": "Repository"
+                      },
+                      "assignees": {
+                        "nodes": [],
+                        "__typename": "UserConnection"
+                      },
+                      "reviews": {
+                        "nodes": [],
+                        "__typename": "PullRequestReviewConnection"
+                      },
+                      "__typename": "PullRequest"
+                    },
+                    {
+                      "id": "MDExOlB1bGxSZXF1ZXN0MzkxMjEzNzU5",
+                      "title": "chat-server-db-exercise",
+                      "createdAt": "2020-03-19T20:11:49Z",
+                      "updatedAt": "2020-03-19T20:11:49Z",
+                      "state": "OPEN",
+                      "url": "https://github.com/codeworks/chat-server-db-exercise/pull/23",
+                      "number": 23,
+                      "author": {
+                        "id": "MDQ6VXNlcjU2NDA4NTk3",
+                        "avatarUrl": "https://avatars1.githubusercontent.com/u/56408597?u=ac53aab421dfd1ea38996303242db9fe595726f1&v=4",
+                        "login": "AlejandroGutierrezB",
+                        "__typename": "User"
+                      },
+                      "repository": {
+                        "name": "chat-server-db-exercise",
+                        "nameWithOwner": "codeworks/chat-server-db-exercise",
+                        "url": "https://github.com/codeworks/chat-server-db-exercise",
+                        "id": "MDEwOlJlcG9zaXRvcnk4MDMwMDMzMQ==",
+                        "__typename": "Repository"
+                      },
+                      "assignees": {
+                        "nodes": [],
+                        "__typename": "UserConnection"
+                      },
+                      "reviews": {
+                        "nodes": [],
+                        "__typename": "PullRequestReviewConnection"
+                      },
+                      "__typename": "PullRequest"
+                    }
+                  ],
+                  "__typename": "PullRequestConnection"
+                },
+                "__typename": "Repository"
+              }
+            ],
+            "__typename": "RepositoryConnection"
+          },
+          "__typename": "Organization"
+        }
+      ],
+      "__typename": "OrganizationConnection"
+    },
+    "__typename": "User"
+  }
+}

@@ -47,6 +47,7 @@ function Dashboard ({ className, username }) {
     // pollInterval: 40000, //todo uncomment
   });
 
+
   // we're keeping the user id
 
   if (data) {
