@@ -1,4 +1,6 @@
-###Testing added to the original code base from [gitrank](https://github.com/martacolombas/gitrank) project.   
+### Testing added to gitrank
+
+[Here](https://github.com/martacolombas/gitrank) you can find the original code base from the project.   
 Go and check Marta's awesome utillity! 
 
 ### Stack
